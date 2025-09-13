@@ -138,7 +138,8 @@ func parseAuthorTitle(filename string) (string, string) {
 		}
 		return author, title
 	}
-	return "Author", filename
+	filename = strings.Replace(filename, "%", "<br>", -1)
+	return "", filename
 }
 
 func readConfig() (config, error) {
