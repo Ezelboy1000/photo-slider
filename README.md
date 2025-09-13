@@ -46,9 +46,9 @@ A simple Go application that generates an HTML photo slider with customizable co
 Name your images using the format: `author - title.ext`
 
 Examples:
-- `john_doe - sunset_photo.jpg`
-- `artist_name - my_artwork.png`
-- `photographer - landscape_view.jpeg`
+- `john doe - sunset photo.jpg`
+- `artist name - my artwork.png`
+- `photographer - landscape view.jpeg`
 
 If you don't use the `author - title` format, the filename will be used as the title and the "Author" won't be displayed.
 
